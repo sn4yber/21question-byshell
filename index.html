@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21 questions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="amor.png" type="image/x-icon">
+</head>
+<body>
+    <h1>21 preguntas y 21 recuerdos</h1>
+    <div class="collage">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>10</button>
+        <button>11</button>
+        <button>12</button>
+        <button>13</button>
+        <button>14</button>
+        <button>15</button>
+        <button>16</button>
+        <button>17</button>
+        <button>18</button>
+        <button>19</button>
+        <button>20</button>
+        <button>21</button>
+    </div>
+    <div id="pregunta" class="pregunta"></div>
+
+
+<!-- Contenedor donde se mostrará la tarjeta -->
+<div id="cardContainer" class="card-container hidden">
+  <div class="card">
+    <img id="cardImage" src="" alt="Imagen del recuerdo">
+    <p id="cardText"></p>
+  </div>
+</div>
+
+<div id="imageModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img id="modalImg" src="" alt="Imagen del día">
+    <p id="modalPregunta" class="pregunta"></p>
+  </div>
+</div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
