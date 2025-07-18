@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             setTimeout(() => {
                 card.style.display = "none";
-            }, 4000);
+            }, 10000);
 
             // Hacer card movible
             let isDragging = false;
